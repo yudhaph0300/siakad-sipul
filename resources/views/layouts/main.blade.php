@@ -22,6 +22,7 @@
     {{-- CSS intern --}}
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/berita.css">
     <link rel="stylesheet" href="/css/login.css">
     <link rel="stylesheet" href="/css/galery.css">
     <link rel="stylesheet" href="/css/footer.css">
