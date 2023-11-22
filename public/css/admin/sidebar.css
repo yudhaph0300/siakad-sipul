@@ -1,0 +1,72 @@
+.sidebar {
+   width: 250px;
+   background: #333;
+   color: #fff;
+   height: 100vh;
+   position: fixed;
+}
+
+.logo {
+   padding: 20px;
+   background-color: #03AF75;
+   
+}
+
+.indicator {
+   margin: 0 10px;
+   padding-left: 10%;
+   color: #03AF75;
+}
+
+.nav-container {
+   margin: 10px 5px;
+   max-height: 75%; /* Atur ketinggian maksimum */
+   overflow-y: auto; /* Tambahkan kemampuan scroll jika konten melebihi ketinggian maksimum */
+}
+
+::-webkit-scrollbar {
+   width: 4px; /* Atur lebar scrollbar */
+ }
+ 
+ /* Gaya dari thumb (bagian yang bisa digerakkan) */
+ ::-webkit-scrollbar-thumb {
+   background-color: #03AF75; /* Warna dari thumb */
+   border-radius: 4px; /* Sudut dari thumb */
+ }
+ 
+ /* Gaya dari track (area background scrollbar) ketika mouse over */
+ ::-webkit-scrollbar-track:hover {
+   background-color: #f1f1f1; /* Warna ketika hover */
+ }
+
+.nav {
+   list-style: none;
+   padding: 0;
+}
+
+.nav li {
+   padding: 0 10px;
+   width: 100%;
+}
+
+.nav li .btn {
+   text-align: start;
+   padding-top: 15px;
+   padding-bottom: 15px;
+   padding-left: 10%;
+   margin: 2px 0;
+   color: #fff;
+   background-color: #333;
+}
+.nav li .btn:hover {
+   background-color: #03AF75;
+}
+
+.nav li .btn.active {
+   background-color: #03AF75;
+}
+
+.logout {
+   padding: 0 10px;
+   width: 100%;
+}

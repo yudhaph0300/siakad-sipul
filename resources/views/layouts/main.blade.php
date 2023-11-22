@@ -27,6 +27,9 @@
     <link rel="stylesheet" href="/css/galery.css">
     <link rel="stylesheet" href="/css/footer.css">
 
+    <link rel="stylesheet" href="/css/admin/index.css">
+    <link rel="stylesheet" href="/css/admin/sidebar.css">
+
 
     <title>Siakad - Sipul</title>
 </head>

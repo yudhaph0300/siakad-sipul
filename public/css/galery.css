@@ -17,7 +17,7 @@
  
  /* Handle atau thumb */
  .galery::-webkit-scrollbar-thumb {
-   background: #558257; /* Warna handle scrollbar */
+   background: #03AF75; /* Warna handle scrollbar */
    border-radius: 5px; /* Sudut radius pada handle scrollbar */
  }
 
